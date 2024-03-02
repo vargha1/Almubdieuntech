@@ -40,11 +40,13 @@
                     <section id="drop-D"
                         class="flex flex-col absolute top-[85px] right-0 z-[102] bg-[white] shadow-md p-5 hidden"
                         onmouseover="displayDropDown()" onmouseout="hideDropDown()">
-                        <a href="" class="p-3">About Almubdieuntech</a>
-                        <a href="" class="p-3">Life at Almubdieuntech</a>
-                        <a href="" class="p-3">Blogs</a>
-                        <a href="" class="p-3">Events</a>
-                        <a href="" class="p-3">Referral Program</a>
+                        <a href="" class="p-2">About Almubdieuntech</a>
+                        <a href="" class="p-2">Life at Almubdieuntech</a>
+                        <a href="" class="p-2">Blogs</a>
+                        <a href="" class="p-2">Press</a>
+                        <a href="" class="p-2">Podcast</a>
+                        <a href="" class="p-2">Events</a>
+                        <a href="" class="p-2">Referral Program</a>
                     </section>
                 </nav>
             </section>
@@ -134,11 +136,11 @@
         <section id="megamenu3" class="w-full fixed z-[191] bg-[white] shadow top-[84px] p-5 flex hidden"
             onmouseover="displayMenu(3)" onmouseout="hideMenu(3)">
             <div class="w-[25%] ps-[120px] flex flex-col">
-                <h2>Our Technologies</h2>
+                <h2 class="text-[black] font-bold">Our Technologies</h2>
             </div>
             <div class="w-[25%] flex flex-col"></div>
             <div class="w-[25%] flex flex-col border-s-[1px] ps-4 border-[#f1f1f1]">
-                <h2>Languages</h2>
+                <h2 class="text-[black] font-bold">Languages</h2>
                 <p>.NET</p>
                 <p>HTML5</p>
                 <p>Java</p>
@@ -147,7 +149,7 @@
                 <p>Python</p>
             </div>
             <div class="w-[25%] flex flex-col border-s-[1px] ps-4 border-[#f1f1f1]">
-                <h2>Platforms</h2>
+                <h2 class="text-[black] font-bold">Platforms</h2>
                 <p>Azure</p>
                 <p>GCP</p>
                 <p>Oracle</p>
@@ -246,8 +248,8 @@
                 </ul>
             </div>
         </section>
-        <div class="w-full max-w-[1000px]">
-            <h2 class="text-[35px] font-bold">Awards & Recognitions</h2>
+        <div class="w-full max-w-[1000px] mb-[60px]">
+            <h2 class="text-[35px] font-bold mb-[15px]">Awards & Recognitions</h2>
             <p class="w-[70%]">We thrive on accelerating the path to disruption and implementing agile methodology to
                 build
                 feature-rich, user-friendly
@@ -255,6 +257,45 @@
                 development services
                 are the reason why we have bagged these notorious awards and recognitions.</p>
         </div>
+        <div class="overflow-hidden w-full max-w-[1000px]">
+            <div class="swiper mySwiper2">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <img src="images/d-1.png" alt="">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="images/d-1.png" alt="">
+                    </div>
+                    <div class="swiper-slide">
+                        <p>.</p>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="images/d-1.png" alt="">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="images/d-1.png" alt="">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="images/d-1.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <section class="flex w-full h-[350px] max-w-[1000px] mt-[120px]">
+            <div class="w-[50%]">
+                <h2 class="text-[35px] font-bold mb-[15px]">Crafting ROI-Centric Solutions Right!</h2>
+                <p class="text-[16px]">Build future-ready applications through primary, consulting, and trending
+                    services to accelerate
+                    growth and agile
+                    transformation. With a strong command of native, cross-platform, and hybrid mobile app development,
+                    we offer top-tier
+                    mobile app development services tailored to the stakeholders’ goals and objectives. We help
+                    businesses innovate complex
+                    application landscapes with a mixture of digital, SaaS, and legacy systems through speed and
+                    agility.</p>
+            </div>
+            <img src="images/d-1.png" class="w-[50%] h-full" alt="">
+        </section>
         <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
         <script>
             var swiper = new Swiper(".mySwiper", {
@@ -266,6 +307,15 @@
                     nextEl: ".swiper-button-next",
                     prevEl: ".swiper-button-prev",
                 },
+                loop: true
+            });
+            var swiper2 = new Swiper(".mySwiper2", {
+                autoplay: {
+                    delay: 2500,
+                    disableOnInteraction: true,
+                },
+                slidesPerView: 5,
+                spaceBetween: 25,
                 loop: true
             });
         </script>

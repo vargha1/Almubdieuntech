@@ -63,7 +63,6 @@ body::-webkit-scrollbar-track {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100% !important;
 }
 
 .swiper-button-prev {
