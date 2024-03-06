@@ -1,6 +1,7 @@
 * {
     box-sizing: border-box;
     --swiper-theme-color: #efcb19;
+    font-family: Poppins, sans-serif;
 }
 
 html,
