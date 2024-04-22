@@ -33,6 +33,8 @@ function openOffCanvas() {
     offCanvas.classList.remove("opacity-0")
     document.getElementById("cover").classList.remove("hidden");
     document.addEventListener('wheel', preventScroll, { passive: false });
+    document.getElementById("openOffCanvas").classList.add("hidden");
+    document.getElementById("closeOffCanvas").classList.remove("hidden");
 }
 function closeOffCanvas() {
     let offCanvas = document.getElementById("offCanvas");
@@ -40,6 +42,8 @@ function closeOffCanvas() {
     offCanvas.classList.add("opacity-0")
     document.getElementById("cover").classList.add("hidden");
     document.removeEventListener('wheel', preventScroll, { passive: false });
+    document.getElementById("openOffCanvas").classList.remove("hidden");
+    document.getElementById("closeOffCanvas").classList.add("hidden");
 }
 function preventScroll(e) {
     e.preventDefault();
