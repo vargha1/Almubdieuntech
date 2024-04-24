@@ -17,6 +17,7 @@ body {
     position: relative;
     height: 100%;
     color: #314252;
+    overflow-x: hidden;
 }
 
 body::-webkit-scrollbar {
@@ -31,6 +32,10 @@ body::-webkit-scrollbar-thumb {
 
 body::-webkit-scrollbar-track {
     box-shadow: inset 0 0 6px rgba(0, 0, 0, .2);
+}
+
+main{
+    overflow-x: hidden;
 }
 
 .head-ul li:hover {
