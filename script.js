@@ -107,15 +107,15 @@ class ListItem extends HTMLElement {
         super();
         let divElem = document.createElement("div");
         this.append(Object.assign(divElem, { className: 'flex flex-col ps-8 border-s-[1px] overflow-hidden transition-all duration-500 transform-gpu' }));
-        divElem.innerHTML += `<h6 class="text-[20px] text-black font-[500]">${this.getAttribute("data-value1")}</h6>`
-        divElem.innerHTML += `<h4 class="text-[20px] font-bold mt-6">${this.getAttribute("data-value2")}</h4>`
-        divElem.innerHTML += `<p class="text-[14px] mt-4">${this.getAttribute("data-value3")}</p>`
-        divElem.innerHTML += `<h4 class="text-[20px] font-bold mt-6">${this.getAttribute("data-value4")}</h4>`
-        divElem.innerHTML += `<p class="text-[14px] mt-4">${this.getAttribute("data-value5")}</p>`
-        divElem.innerHTML += `<h4 class="text-[20px] font-bold mt-6">${this.getAttribute("data-value6")}</h4>`
-        divElem.innerHTML += `<p class="text-[14px] mt-4">${this.getAttribute("data-value7")}</p>`
-        divElem.innerHTML += `<h4 class="text-[20px] font-bold mt-6">${this.getAttribute("data-value8")}</h4>`
-        divElem.innerHTML += `<p class="text-[14px] mt-4">${this.getAttribute("data-value9")}</p>`
+        divElem.innerHTML += `<h6 class=" text-black font-[500]">${this.getAttribute("data-value1")}</h6>`
+        divElem.innerHTML += `<h4 class=" font-bold mt-6">${this.getAttribute("data-value2")}</h4>`
+        divElem.innerHTML += `<p class=" mt-4">${this.getAttribute("data-value3")}</p>`
+        divElem.innerHTML += `<h4 class=" font-bold mt-6">${this.getAttribute("data-value4")}</h4>`
+        divElem.innerHTML += `<p class=" mt-4">${this.getAttribute("data-value5")}</p>`
+        divElem.innerHTML += `<h4 class=" font-bold mt-6">${this.getAttribute("data-value6")}</h4>`
+        divElem.innerHTML += `<p class=" mt-4">${this.getAttribute("data-value7")}</p>`
+        divElem.innerHTML += `<h4 class=" font-bold mt-6">${this.getAttribute("data-value8")}</h4>`
+        divElem.innerHTML += `<p class=" mt-4">${this.getAttribute("data-value9")}</p>`
     }
 }
 
@@ -128,4 +128,43 @@ if (window.innerWidth > 768) {
     changeList(0);
 } else if (window.innerWidth < 768) {
     changeList(2);
+}
+
+function changeList2(num){
+    let wrapper11 = document.getElementById('wrapper11');
+
+    for (let index = 2; index < wrapper11.children.length; index++) {
+        wrapper11.children.item(index).classList.add('hidden');       
+    }
+
+    for (let index = 0; index < wrapper11.children.item(1).children.length; index++) {
+        wrapper11.children.item(1).children.item(0).classList.remove('border-[#efcb19]');
+        wrapper11.children.item(1).children.item(0).classList.remove('text-[#efcb19]');
+    }
+
+    if(num == 1){
+        wrapper11.children.item(2).classList.remove('hidden');
+        wrapper11.children.item(1).children.item(0).classList.add('border-[#efcb19]');
+        wrapper11.children.item(1).children.item(0).classList.add('text-[#efcb19]');
+    }
+    if(num == 2){
+        wrapper11.children.item(3).classList.remove('hidden');
+        wrapper11.children.item(1).children.item(1).classList.add('border-[#efcb19]');
+        wrapper11.children.item(1).children.item(1).classList.add('text-[#efcb19]');
+    }
+    if(num == 3){
+        wrapper11.children.item(4).classList.remove('hidden');
+        wrapper11.children.item(1).children.item(2).classList.add('border-[#efcb19]');
+        wrapper11.children.item(1).children.item(2).classList.add('text-[#efcb19]');
+    }
+    if(num == 4){
+        wrapper11.children.item(5).classList.remove('hidden');
+        wrapper11.children.item(1).children.item(3).classList.add('border-[#efcb19]');
+        wrapper11.children.item(1).children.item(3).classList.add('text-[#efcb19]');
+    }
+    if(num == 5){
+        wrapper11.children.item(6).classList.remove('hidden');
+        wrapper11.children.item(1).children.item(4).classList.add('border-[#efcb19]');
+        wrapper11.children.item(1).children.item(4).classList.add('text-[#efcb19]');
+    }
 }
