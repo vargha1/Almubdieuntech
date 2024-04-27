@@ -8,43 +8,38 @@
     .h2,
     h1,
     h2 {
-        font-size: 22px !important;
+        font-size: 22px;
         letter-spacing: 0;
-        line-height: 32px;
         margin-bottom: 20px
     }
 
     .h3,
     h3 {
-        font-size: 15px !important;
+        font-size: 15px;
         font-weight: 600;
         letter-spacing: 0;
-        line-height: 25px;
         margin-bottom: 15px
     }
 
     .h3_head.h3,
     h3.h3_head {
-        font-size: 22px !important;
+        font-size: 22px;
         letter-spacing: 0;
-        line-height: 32px;
         margin-bottom: 20px
     }
 
     .h4,
     h4 {
-        font-size: 18px !important;
+        font-size: 18px;
         font-weight: 700;
         letter-spacing: 0;
-        line-height: 28px;
         margin-bottom: 10px
     }
 
     .h5,
     h5 {
-        font-size: 18px !important;
+        font-size: 18px;
         font-weight: 600;
-        line-height: 30px
     }
 
     .h5,
@@ -57,9 +52,8 @@
 
     .h6,
     h6 {
-        font-size: 16px !important;
+        font-size: 16px;
         font-weight: 500;
-        line-height: 26px
     }
 
     p {
@@ -68,12 +62,15 @@
 
     p,
     ul li {
-        font-size: 13px !important;
-        line-height: 26px
+        font-size: 13px;
     }
 
     ul li {
         margin-bottom: 0
+    }
+
+    .AlBanner {
+        font-size: 45px;
     }
 }
 
@@ -86,43 +83,38 @@
     .h2,
     h1,
     h2 {
-        font-size: 25px !important;
+        font-size: 25px;
         letter-spacing: 1px;
-        line-height: 35px;
         margin-bottom: 15px
     }
 
     .h3,
     h3 {
-        font-size: 16px !important;
+        font-size: 16px;
         font-weight: 600;
         letter-spacing: 0;
-        line-height: 26px;
         margin-bottom: 15px
     }
 
     .h3_head.h3,
     h3.h3_head {
-        font-size: 25px !important;
+        font-size: 25px;
         letter-spacing: 1px;
-        line-height: 35px;
         margin-bottom: 15px
     }
 
     .h4,
     h4 {
-        font-size: 18px !important;
+        font-size: 18px;
         font-weight: 700;
         letter-spacing: 0;
-        line-height: 28px;
         margin-bottom: 10px
     }
 
     .h5,
     h5 {
-        font-size: 18px !important;
+        font-size: 18px;
         font-weight: 600;
-        line-height: 30px
     }
 
     .h5,
@@ -135,9 +127,8 @@
 
     .h6,
     h6 {
-        font-size: 15px !important;
+        font-size: 15px;
         font-weight: 500;
-        line-height: 25px
     }
 
     p {
@@ -146,12 +137,15 @@
 
     p,
     ul li {
-        font-size: 12px !important;
-        line-height: 24px
+        font-size: 12px;
     }
 
     ul li {
         margin-bottom: 0
+    }
+
+    .AlBanner {
+        font-size: 40px;
     }
 }
 
@@ -164,43 +158,38 @@
     .h2,
     h1,
     h2 {
-        font-size: 25px !important;
+        font-size: 25px;
         letter-spacing: 1px;
-        line-height: 35px;
         margin-bottom: 15px
     }
 
     .h3,
     h3 {
-        font-size: 16px !important;
+        font-size: 16px;
         font-weight: 600;
         letter-spacing: 0;
-        line-height: 26px;
         margin-bottom: 15px
     }
 
     .h3_head.h3,
     h3.h3_head {
-        font-size: 25px !important;
+        font-size: 25px;
         letter-spacing: 1px;
-        line-height: 35px;
         margin-bottom: 15px
     }
 
     .h4,
     h4 {
-        font-size: 18px !important;
+        font-size: 18px;
         font-weight: 700;
         letter-spacing: 0;
-        line-height: 28px;
         margin-bottom: 10px
     }
 
     .h5,
     h5 {
-        font-size: 18px !important;
+        font-size: 18px;
         font-weight: 600;
-        line-height: 30px
     }
 
     .h5,
@@ -213,9 +202,8 @@
 
     .h6,
     h6 {
-        font-size: 15px !important;
+        font-size: 15px;
         font-weight: 500;
-        line-height: 25px
     }
 
     p {
@@ -224,12 +212,15 @@
 
     p,
     ul li {
-        font-size: 12px !important;
-        line-height: 24px
+        font-size: 12px;
     }
 
     ul li {
         margin-bottom: 0
+    }
+
+    .AlBanner {
+        font-size: 45px;
     }
 }
 
@@ -242,41 +233,36 @@
     .h2,
     h1,
     h2 {
-        font-size: 30px !important;
+        font-size: 30px;
         letter-spacing: 1px;
-        line-height: 40px
     }
 
     .h3,
     h3 {
-        font-size: 18px !important;
+        font-size: 18px;
         font-weight: 600;
         letter-spacing: 0;
-        line-height: 28px;
         margin-bottom: 20px
     }
 
     .h3_head.h3,
     h3.h3_head {
-        font-size: 30px !important;
+        font-size: 30px;
         letter-spacing: 1px;
-        line-height: 40px
     }
 
     .h4,
     h4 {
-        font-size: 18px !important;
+        font-size: 18px;
         font-weight: 700;
         letter-spacing: 0;
-        line-height: 28px;
         margin-bottom: 10px
     }
 
     .h5,
     h5 {
-        font-size: 18px !important;
+        font-size: 18px;
         font-weight: 600;
-        line-height: 30px
     }
 
     .h5,
@@ -289,19 +275,21 @@
 
     .h6,
     h6 {
-        font-size: 16px !important;
+        font-size: 16px;
         font-weight: 500;
-        line-height: 28px
     }
 
     p,
     ul li {
-        font-size: 13px !important;
-        line-height: 26px
+        font-size: 13px;
     }
 
     ul li {
         margin-bottom: 0
+    }
+
+    .AlBanner {
+        font-size: 60px;
     }
 }
 
@@ -314,29 +302,25 @@
     .h2,
     h1,
     h2 {
-        font-size: 35px !important;
-        line-height: 45px
+        font-size: 35px;
     }
 
     .h3,
     h3 {
-        font-size: 20px !important;
+        font-size: 20px;
         font-weight: 600;
-        line-height: 30px;
         margin-bottom: 20px
     }
 
     .h3_head.h3,
     h3.h3_head {
-        font-size: 35px !important;
-        line-height: 45px
+        font-size: 35px;
     }
 
     .h4,
     h4 {
-        font-size: 20px !important;
+        font-size: 20px;
         font-weight: 700;
-        line-height: 30px;
         margin-bottom: 10px
     }
 
@@ -349,8 +333,7 @@
     .h6,
     h5,
     h6 {
-        font-size: 18px !important;
-        line-height: 30px;
+        font-size: 18px;
         margin-bottom: 20px
     }
 
@@ -361,12 +344,15 @@
 
     p,
     ul li {
-        font-size: 14px !important;
-        line-height: 28px
+        font-size: 14px;
     }
 
     ul li {
         margin-bottom: 0
+    }
+
+    .AlBanner {
+        font-size: 60px;
     }
 }
 
@@ -379,45 +365,39 @@
     .h2,
     h1,
     h2 {
-        font-size: 40px !important;
-        line-height: 55px
+        font-size: 40px;
     }
 
     .h3,
     h3 {
-        font-size: 24px !important;
+        font-size: 24px;
         font-weight: 600;
-        line-height: 34px;
         margin-bottom: 20px
     }
 
     .h3_head.h3,
     h3.h3_head {
-        font-size: 40px !important;
-        line-height: 55px
+        font-size: 40px;
     }
 
     .h4,
     h4 {
-        font-size: 22px !important;
+        font-size: 22px;
         font-weight: 700;
-        line-height: 32px;
         margin-bottom: 10px
     }
 
     .h5,
     h5 {
-        font-size: 20px !important;
+        font-size: 20px;
         font-weight: 600;
-        line-height: 33px;
         margin-bottom: 20px
     }
 
     .h6,
     h6 {
-        font-size: 20px !important;
+        font-size: 20px;
         font-weight: 500;
-        line-height: 32px;
         margin-bottom: 30px
     }
 
@@ -427,12 +407,15 @@
 
     p,
     ul li {
-        font-size: 15px !important;
-        line-height: 30px
+        font-size: 15px;
     }
 
     ul li {
         margin-bottom: 0
+    }
+
+    .AlBanner {
+        font-size: 70px;
     }
 }
 
@@ -445,27 +428,24 @@
     .h2,
     h1,
     h2 {
-        font-size: 44px !important;
-        line-height: 60px
+        font-size: 44px;
     }
 
     .h3,
     h3 {
-        font-size: 28px !important;
+        font-size: 28px;
         font-weight: 600;
-        line-height: 40px;
         margin-bottom: 20px
     }
 
     .h3_head.h3,
     h3.h3_head {
-        font-size: 44px !important;
-        line-height: 60px
+        font-size: 44px;
     }
 
     .h4,
     h4 {
-        font-size: 24px !important;
+        font-size: 24px;
         font-weight: 700
     }
 
@@ -473,21 +453,19 @@
     .h5,
     h4,
     h5 {
-        line-height: 35px;
         margin-bottom: 20px
     }
 
     .h5,
     h5 {
-        font-size: 22px !important;
+        font-size: 22px;
         font-weight: 600
     }
 
     .h6,
     h6 {
-        font-size: 22px !important;
+        font-size: 22px;
         font-weight: 500;
-        line-height: 36px;
         margin-bottom: 50px
     }
 
@@ -497,12 +475,15 @@
 
     p,
     ul li {
-        font-size: 16px !important;
-        line-height: 32px
+        font-size: 16px;
     }
 
     ul li {
         margin-bottom: 0
+    }
+
+    .AlBanner {
+        font-size: 80px;
     }
 }
 
@@ -514,11 +495,11 @@
 
 
 .main-color {
-    color: #efcb19 !important;
+    color: #efcb19;
 }
 
 html,
-body{
+body {
     position: relative;
     height: 100%;
     color: #314252;
@@ -543,11 +524,11 @@ main {
     overflow-x: hidden;
 }
 
-.head-ul a:hover {
+.head-ul a:not(:last-child):hover {
     color: #efcb19;
 }
 
-.head-ul a::after {
+.head-ul a:not(:last-child):after {
     content: '';
     position: absolute;
     width: 0px;
@@ -570,6 +551,13 @@ main {
     background-color: #efcb19;
 }
 
+.head-ul a:last-child:hover {
+    background-color: white;
+    transition: all ease-in-out .2s;
+    color: #efcb19;
+    border: #efcb19 solid 2px;
+}
+
 .swiper {
     width: 100%;
     height: 100%;
@@ -577,7 +565,7 @@ main {
 
 .swiper-slide {
     text-align: center;
-    font-size: 18px !important;
+    font-size: 18px;
     background: #fff;
     display: flex;
     justify-content: center;
@@ -596,11 +584,11 @@ main {
 .border-trans {
     position: relative;
     margin: 0 2px;
-    display: flex !important;
+    display: flex;
     justify-content: center;
     overflow: hidden;
-    height: 140px !important;
-    width: 300px !important;
+    height: 140px;
+    width: 300px;
 
     &:before {
         box-sizing: border-box;
@@ -650,10 +638,10 @@ main {
 
 .border-trans2 {
     position: relative;
-    display: flex !important;
+    display: flex;
     justify-content: center;
     overflow: hidden;
-    border: #e2e2e2 1px solid !important;
+    border: #e2e2e2 1px solid;
 
     &:before {
         box-sizing: border-box;
@@ -714,7 +702,7 @@ main {
 .border-trans3 {
     position: relative;
     margin: 0 2px;
-    display: flex !important;
+    display: flex;
     justify-content: center;
     overflow: hidden;
 
