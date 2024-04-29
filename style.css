@@ -2,6 +2,18 @@
 @tailwind components;
 @tailwind utilities;
 
+h3:not(.box-item) {
+    font-size: 54px !important;
+}
+
+h2 {
+    font-size: 54px !important;
+}
+
+.nav-item {
+    font-size: 40px;
+}
+
 .AlBanner {
     font-size: 100px !important;
 }
@@ -95,6 +107,10 @@
         max-width: 700px
     }
 
+    .nav-item {
+        font-size: 23px;
+    }
+
     .h1,
     .h2,
     h1,
@@ -172,6 +188,10 @@
 @media(min-width: 768px)and (max-width:991px) {
     .container {
         max-width: 860px
+    }
+
+    .nav-item {
+        font-size: 24px;
     }
 
     .h1,
@@ -253,6 +273,10 @@
         max-width: 900px
     }
 
+    .nav-item {
+        font-size: 26px;
+    }
+
     .h1,
     .h2,
     h1,
@@ -326,6 +350,10 @@
         max-width: 1130px
     }
 
+    .nav-item {
+        font-size: 30px;
+    }
+
     .h1,
     .h2,
     h1,
@@ -393,6 +421,10 @@
         max-width: 1240px
     }
 
+    .nav-item {
+        font-size: 30px;
+    }
+
     .h1,
     .h2,
     h1,
@@ -458,6 +490,10 @@
 @media(min-width: 1600px)and (max-width:1800px) {
     .container {
         max-width: 1340px
+    }
+
+    .nav-item {
+        font-size: 30px;
     }
 
     .h1,
