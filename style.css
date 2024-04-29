@@ -2,20 +2,32 @@
 @tailwind components;
 @tailwind utilities;
 
+.AlBanner {
+    font-size: 100px !important;
+}
+
+.AlBanner+p {
+    font-size: 45px;
+}
+
 @media (min-width:0px) and (max-width:666px) {
+
+    .nav-item {
+        font-size: 18px;
+    }
 
     .h1,
     .h2,
     h1,
     h2 {
-        font-size: 22px;
+        font-size: 22px !important;
         letter-spacing: 0;
         margin-bottom: 20px
     }
 
     .h3,
     h3 {
-        font-size: 15px;
+        font-size: 15px !important;
         font-weight: 600;
         letter-spacing: 0;
         margin-bottom: 15px
@@ -23,14 +35,14 @@
 
     .h3_head.h3,
     h3.h3_head {
-        font-size: 22px;
+        font-size: 22px !important;
         letter-spacing: 0;
         margin-bottom: 20px
     }
 
     .h4,
     h4 {
-        font-size: 18px;
+        font-size: 18px !important;
         font-weight: 700;
         letter-spacing: 0;
         margin-bottom: 10px
@@ -38,7 +50,7 @@
 
     .h5,
     h5 {
-        font-size: 18px;
+        font-size: 18px !important;
         font-weight: 600;
     }
 
@@ -52,7 +64,7 @@
 
     .h6,
     h6 {
-        font-size: 16px;
+        font-size: 16px !important;
         font-weight: 500;
     }
 
@@ -62,7 +74,7 @@
 
     p,
     ul li {
-        font-size: 13px;
+        font-size: 13px !important;
     }
 
     ul li {
@@ -70,7 +82,11 @@
     }
 
     .AlBanner {
-        font-size: 45px;
+        font-size: 45px !important;
+    }
+
+    .AlBanner+p {
+        font-size: 15px;
     }
 }
 
@@ -83,14 +99,14 @@
     .h2,
     h1,
     h2 {
-        font-size: 25px;
+        font-size: 25px !important;
         letter-spacing: 1px;
         margin-bottom: 15px
     }
 
     .h3,
     h3 {
-        font-size: 16px;
+        font-size: 16px !important;
         font-weight: 600;
         letter-spacing: 0;
         margin-bottom: 15px
@@ -98,14 +114,14 @@
 
     .h3_head.h3,
     h3.h3_head {
-        font-size: 25px;
+        font-size: 25px !important;
         letter-spacing: 1px;
         margin-bottom: 15px
     }
 
     .h4,
     h4 {
-        font-size: 18px;
+        font-size: 18px !important;
         font-weight: 700;
         letter-spacing: 0;
         margin-bottom: 10px
@@ -113,7 +129,7 @@
 
     .h5,
     h5 {
-        font-size: 18px;
+        font-size: 18px !important;
         font-weight: 600;
     }
 
@@ -127,7 +143,7 @@
 
     .h6,
     h6 {
-        font-size: 15px;
+        font-size: 15px !important;
         font-weight: 500;
     }
 
@@ -137,7 +153,7 @@
 
     p,
     ul li {
-        font-size: 12px;
+        font-size: 12px !important;
     }
 
     ul li {
@@ -145,7 +161,11 @@
     }
 
     .AlBanner {
-        font-size: 40px;
+        font-size: 40px !important;
+    }
+
+    .AlBanner+p {
+        font-size: 16px;
     }
 }
 
@@ -158,14 +178,14 @@
     .h2,
     h1,
     h2 {
-        font-size: 25px;
+        font-size: 25px !important;
         letter-spacing: 1px;
         margin-bottom: 15px
     }
 
     .h3,
     h3 {
-        font-size: 16px;
+        font-size: 16px !important;
         font-weight: 600;
         letter-spacing: 0;
         margin-bottom: 15px
@@ -173,14 +193,14 @@
 
     .h3_head.h3,
     h3.h3_head {
-        font-size: 25px;
+        font-size: 25px !important;
         letter-spacing: 1px;
         margin-bottom: 15px
     }
 
     .h4,
     h4 {
-        font-size: 18px;
+        font-size: 18px !important;
         font-weight: 700;
         letter-spacing: 0;
         margin-bottom: 10px
@@ -188,7 +208,7 @@
 
     .h5,
     h5 {
-        font-size: 18px;
+        font-size: 18px !important;
         font-weight: 600;
     }
 
@@ -202,7 +222,7 @@
 
     .h6,
     h6 {
-        font-size: 15px;
+        font-size: 15px !important;
         font-weight: 500;
     }
 
@@ -212,7 +232,7 @@
 
     p,
     ul li {
-        font-size: 12px;
+        font-size: 12px !important;
     }
 
     ul li {
@@ -220,7 +240,11 @@
     }
 
     .AlBanner {
-        font-size: 45px;
+        font-size: 45px !important;
+    }
+
+    .AlBanner+p {
+        font-size: 18px;
     }
 }
 
@@ -233,13 +257,13 @@
     .h2,
     h1,
     h2 {
-        font-size: 30px;
+        font-size: 30px !important;
         letter-spacing: 1px;
     }
 
     .h3,
     h3 {
-        font-size: 18px;
+        font-size: 18px !important;
         font-weight: 600;
         letter-spacing: 0;
         margin-bottom: 20px
@@ -247,13 +271,13 @@
 
     .h3_head.h3,
     h3.h3_head {
-        font-size: 30px;
+        font-size: 30px !important;
         letter-spacing: 1px;
     }
 
     .h4,
     h4 {
-        font-size: 18px;
+        font-size: 18px !important;
         font-weight: 700;
         letter-spacing: 0;
         margin-bottom: 10px
@@ -261,7 +285,7 @@
 
     .h5,
     h5 {
-        font-size: 18px;
+        font-size: 18px !important;
         font-weight: 600;
     }
 
@@ -275,13 +299,13 @@
 
     .h6,
     h6 {
-        font-size: 16px;
+        font-size: 16px !important;
         font-weight: 500;
     }
 
     p,
     ul li {
-        font-size: 13px;
+        font-size: 13px !important;
     }
 
     ul li {
@@ -289,7 +313,11 @@
     }
 
     .AlBanner {
-        font-size: 60px;
+        font-size: 60px !important;
+    }
+
+    .AlBanner+p {
+        font-size: 22px;
     }
 }
 
@@ -302,24 +330,24 @@
     .h2,
     h1,
     h2 {
-        font-size: 35px;
+        font-size: 35px !important;
     }
 
     .h3,
     h3 {
-        font-size: 20px;
+        font-size: 20px !important;
         font-weight: 600;
         margin-bottom: 20px
     }
 
     .h3_head.h3,
     h3.h3_head {
-        font-size: 35px;
+        font-size: 35px !important;
     }
 
     .h4,
     h4 {
-        font-size: 20px;
+        font-size: 20px !important;
         font-weight: 700;
         margin-bottom: 10px
     }
@@ -333,7 +361,7 @@
     .h6,
     h5,
     h6 {
-        font-size: 18px;
+        font-size: 18px !important;
         margin-bottom: 20px
     }
 
@@ -344,7 +372,7 @@
 
     p,
     ul li {
-        font-size: 14px;
+        font-size: 14px !important;
     }
 
     ul li {
@@ -352,7 +380,11 @@
     }
 
     .AlBanner {
-        font-size: 60px;
+        font-size: 60px !important;
+    }
+
+    .AlBanner+p {
+        font-size: 22px;
     }
 }
 
@@ -365,38 +397,38 @@
     .h2,
     h1,
     h2 {
-        font-size: 40px;
+        font-size: 40px !important;
     }
 
     .h3,
     h3 {
-        font-size: 24px;
+        font-size: 24px !important;
         font-weight: 600;
         margin-bottom: 20px
     }
 
     .h3_head.h3,
     h3.h3_head {
-        font-size: 40px;
+        font-size: 40px !important;
     }
 
     .h4,
     h4 {
-        font-size: 22px;
+        font-size: 22px !important;
         font-weight: 700;
         margin-bottom: 10px
     }
 
     .h5,
     h5 {
-        font-size: 20px;
+        font-size: 20px !important;
         font-weight: 600;
         margin-bottom: 20px
     }
 
     .h6,
     h6 {
-        font-size: 20px;
+        font-size: 20px !important;
         font-weight: 500;
         margin-bottom: 30px
     }
@@ -407,7 +439,7 @@
 
     p,
     ul li {
-        font-size: 15px;
+        font-size: 15px !important;
     }
 
     ul li {
@@ -415,7 +447,11 @@
     }
 
     .AlBanner {
-        font-size: 70px;
+        font-size: 70px !important;
+    }
+
+    .AlBanner+p {
+        font-size: 25px;
     }
 }
 
@@ -428,24 +464,24 @@
     .h2,
     h1,
     h2 {
-        font-size: 44px;
+        font-size: 44px !important;
     }
 
     .h3,
     h3 {
-        font-size: 28px;
+        font-size: 28px !important;
         font-weight: 600;
         margin-bottom: 20px
     }
 
     .h3_head.h3,
     h3.h3_head {
-        font-size: 44px;
+        font-size: 44px !important;
     }
 
     .h4,
     h4 {
-        font-size: 24px;
+        font-size: 24px !important;
         font-weight: 700
     }
 
@@ -458,13 +494,13 @@
 
     .h5,
     h5 {
-        font-size: 22px;
+        font-size: 22px !important;
         font-weight: 600
     }
 
     .h6,
     h6 {
-        font-size: 22px;
+        font-size: 22px !important;
         font-weight: 500;
         margin-bottom: 50px
     }
@@ -475,7 +511,7 @@
 
     p,
     ul li {
-        font-size: 16px;
+        font-size: 16px !important;
     }
 
     ul li {
@@ -483,7 +519,11 @@
     }
 
     .AlBanner {
-        font-size: 80px;
+        font-size: 80px !important;
+    }
+
+    .AlBanner+p {
+        font-size: 28px;
     }
 }
 
@@ -565,7 +605,7 @@ main {
 
 .swiper-slide {
     text-align: center;
-    font-size: 18px;
+    font-size: 18px !important;
     background: #fff;
     display: flex;
     justify-content: center;
