@@ -13,9 +13,10 @@
 
 <body class="bg-[#fdfdfd]">
     <header class="flex flex-col justify-center items-center pb-3 mb-[100px]">
-        <div class="flex justify-between fixed bg-[white] w-full shadow top-0 md:px-[8%] h-[81px] z-[100]">
-            <section class="flex items-center" id="logo">
-                <img src="images/d-1.png" class="w-[48px]" alt="">
+        <div
+            class="flex justify-between fixed bg-[white] w-full top-0 md:px-[8%] shadow max-w-[1900px] h-[81px] z-[100]">
+            <section class="flex items-center ps-4" id="logo">
+                <img src="../images/d-1.png" class="w-[48px]" alt="">
             </section>
             <section class="hidden lg:block">
                 <nav class="flex relative">
@@ -51,13 +52,13 @@
                     <section id="drop-D"
                         class="flex flex-col absolute top-[64px] right-0 z-[102] bg-[white] shadow-md p-5 hidden"
                         onmouseover="displayDropDown()" onmouseout="hideDropDown()">
-                        <a href="" class="p-2">About Almubdieuntech</a>
-                        <a href="" class="p-2">Life at Almubdieuntech</a>
-                        <a href="" class="p-2">Blogs</a>
-                        <a href="" class="p-2">Press</a>
-                        <a href="" class="p-2">Podcast</a>
-                        <a href="" class="p-2">Events</a>
-                        <a href="" class="p-2">Referral Program</a>
+                        <a href="" class="p-2 text-[13px]">About Almubdieuntech</a>
+                        <a href="" class="p-2 text-[13px]">Life at Almubdieuntech</a>
+                        <a href="" class="p-2 text-[13px]">Blogs</a>
+                        <a href="" class="p-2 text-[13px]">Press</a>
+                        <a href="" class="p-2 text-[13px]">Podcast</a>
+                        <a href="" class="p-2 text-[13px]">Events</a>
+                        <a href="" class="p-2 text-[13px]">Referral Program</a>
                     </section>
                 </nav>
             </section>
@@ -96,7 +97,7 @@
             </div>
         </div>
         <div class="bg-[black] fixed top-0 right-0 bottom-0 left-0 opacity-70 z-[99] hidden" id="cover"></div>
-        <nav class="w-full fixed max-w-[300px] bg-[white] top-[64px] bottom-0 left-[300%] right-[0px] opacity-0 transition-all duration-500 z-[100]"
+        <nav class="w-full fixed max-w-[3900x] bg-[white] top-[64px] bottom-0 left-[300%] right-[0px] opacity-0 transition-all duration-500 z-[100]"
             id="offCanvas">
             <div class="flex w-full p-8 pb-0">
                 <svg width="20" height="21" class="hover:first::fill-[#efcb19] first:fill-[#718389]" viewBox="0 0 20 21"
@@ -166,13 +167,13 @@
             onmouseover="displayMenu(1)" onmouseout="hideMenu(1)">
             <div class="flex">
                 <div class="w-[25%] ps-[160px] flex flex-col">
-                    <h2 class="pb-3 text-[black] font-bold">Our Services</h2>
+                    <h4 class="pb-3 2xl:text-[25px] menu-h text-[black] font-[500]">Our Services</h4>
                     <p>1</p>
                     <p>2</p>
                     <p>3</p>
                 </div>
                 <div class="w-[25%] flex flex-col border-s-[1px] ps-4 border-[#f1f1f1]">
-                    <h2 class="pb-3 text-[black] font-bold">Primary</h2>
+                    <h4 class="pb-3 2xl:text-[25px] menu-h text-[black] font-[500]">Primary</h4>
                     <p>Android App Development</p>
                     <p>IPhone App Development</p>
                     <p>Game Development</p>
@@ -182,7 +183,7 @@
                     <p>Mobile App Development Services</p>
                 </div>
                 <div class="w-[25%] flex flex-col border-s-[1px] ps-4 border-[#f1f1f1]">
-                    <h2 class="pb-3 text-[black] font-bold">Consulting</h2>
+                    <h4 class="pb-3 2xl:text-[25px] menu-h text-[black] font-[500]">Consulting</h4>
                     <p>Cloud Computing</p>
                     <p>CTO Consultant</p>
                     <p>Emerging Technology</p>
@@ -192,7 +193,7 @@
                     <p>Digital Strategy</p>
                 </div>
                 <div class="w-[25%] flex flex-col border-s-[1px] ps-4 border-[#f1f1f1]">
-                    <h2 class="pb-3 text-[black] font-bold">Trending</h2>
+                    <h4 class="pb-3 2xl:text-[25px] menu-h text-[black] font-[500]">Trending</h4>
                     <p>AI Development</p>
                     <p>AR/VR Company</p>
                     <p>Bluetooth App Development</p>
@@ -204,7 +205,7 @@
             </div>
             <div class="flex items-center text-[white] w-full bg-[#314252] mt-[45px]">
                 <div class="flex items-center ps-[175px] w-[25%]">
-                    <h2>Core Services</h2>
+                    <h4 class="2xl:text-[25px] menu-h">Core Services</h4>
                 </div>
                 <div class="flex w-[25%] py-4">
                     <svg class="me-4" width="27" height="41" viewBox="0 0 27 41" fill="none"
@@ -251,10 +252,10 @@
             onmouseover="displayMenu(2)" onmouseout="hideMenu(2)">
             <div class="flex">
                 <div class="w-[25%] ps-[160px] flex flex-col">
-                    <h2 class="text-[black] font-bold">Our Solution</h2>
+                    <h4 class="text-[black] font-[500] 2xl:text-[25px] menu-h">Our Solution</h4>
                 </div>
                 <div class="w-[25%] flex flex-col border-s-[1px] ps-4 border-[#f1f1f1]">
-                    <h2 class="text-[black] font-bold">Products</h2>
+                    <h4 class="text-[black] font-[500] 2xl:text-[25px] menu-h">Products</h4>
                     <p>CMS Solution</p>
                     <p>HRM Solution</p>
                     <p>CRM Solution</p>
@@ -263,7 +264,7 @@
                     <p>POS Solution</p>
                 </div>
                 <div class="w-[25%] flex flex-col border-s-[1px] ps-4 border-[#f1f1f1]">
-                    <h2 class="text-[black] font-bold">Industries</h2>
+                    <h4 class="text-[black] font-[500] 2xl:text-[25px] menu-h">Industries</h4>
                     <p>Automotive</p>
                     <p>Healthcare</p>
                     <p>On-Demand</p>
@@ -272,7 +273,7 @@
                     <p>Fintech</p>
                 </div>
                 <div class="w-[25%] flex flex-col border-s-[1px] ps-4 border-[#f1f1f1]">
-                    <h2>&nbsp;</h2>
+                    <h4>&nbsp;</h4>
                     <p>Logistics</p>
                     <p>Retail</p>
                     <p>Ecommerce</p>
@@ -282,7 +283,7 @@
             </div>
             <div class="flex items-center text-[white] w-full bg-[#314252] mt-[45px]">
                 <div class="flex items-center ps-[175px] w-[25%]">
-                    <h2>Core Services</h2>
+                    <h4>Core Services</h4>
                 </div>
                 <div class="flex w-[25%] py-4">
                     <svg class="me-4" width="27" height="41" viewBox="0 0 27 41" fill="none"
@@ -329,11 +330,11 @@
             onmouseover="displayMenu(3)" onmouseout="hideMenu(3)">
             <div class="flex">
                 <div class="w-[25%] ps-[185px] flex flex-col">
-                    <h2 class="text-[black] font-bold">Our Technologies</h2>
+                    <h4 class="text-[black] font-[500] 2xl:text-[25px] menu-h">Our Technologies</h4>
                 </div>
                 <div class="w-[25%] flex flex-col"></div>
                 <div class="w-[25%] flex flex-col border-s-[1px] ps-4 border-[#f1f1f1]">
-                    <h2 class="text-[black] font-bold">Languages</h2>
+                    <h4 class="text-[black] font-[500] 2xl:text-[25px] menu-h">Languages</h4>
                     <p>.NET</p>
                     <p>HTML5</p>
                     <p>Java</p>
@@ -342,7 +343,7 @@
                     <p>Python</p>
                 </div>
                 <div class="w-[25%] flex flex-col border-s-[1px] ps-4 border-[#f1f1f1]">
-                    <h2 class="text-[black] font-bold">Platforms</h2>
+                    <h4 class="text-[black] font-[500] 2xl:text-[25px] menu-h">Platforms</h4>
                     <p>Azure</p>
                     <p>GCP</p>
                     <p>Oracle</p>
@@ -351,7 +352,7 @@
             </div>
             <div class="flex items-center text-[white] w-full bg-[#314252] mt-[45px]">
                 <div class="flex items-center ps-[175px] w-[25%]">
-                    <h2>Core Services</h2>
+                    <h4>Core Services</h4>
                 </div>
                 <div class="flex w-[25%] py-4">
                     <svg class="me-4" width="27" height="41" viewBox="0 0 27 41" fill="none"
@@ -396,9 +397,9 @@
         </section>
     </header>
     <main class="flex flex-col justify-center items-center w-full">
-        <section class="flex flex-wrap w-full md:px-[8%]">
-            <div class="flex flex-col md:w-3/4 w-full">
-                <h1 class="md:  font-bold">Transform Business Growth with Revolutionary Services</h1>
+        <section class="flex flex-wrap w-full md:px-[8%] max-w-[1900px]">
+            <div class="flex flex-col md:w-[55%] w-full me-[100px]">
+                <h1 class="font-bold">Transform Business Growth with Revolutionary Services</h1>
                 <p>Our unwavering commitment to innovation and customer satisfaction drives us to deliver transformative
                     services that effectively address the ever-evolving demands of businesses in the digital world,
                     ensuring exceptional results and driving impactful transformations.</p>
@@ -409,7 +410,7 @@
                     <li class="w-1/2 list-disc">Data-driven insights</li>
                 </ul>
             </div>
-            <div class="flex flex-col md:w-1/4 w-full bg-[#ffffff] p-7 shadow-lg rounded-2xl">
+            <div class="flex flex-col md:w-[33%] w-full bg-[#ffffff] p-10 shadow-lg rounded-2xl">
                 <h2 class="md:  font-bold">
                     Book a Free <span class="text-[#efcb19]">Consultation</span>
                 </h2>
@@ -431,7 +432,7 @@
         </section>
         <section class="flex flex-col items-center w-full my-[150px]">
             <h2 class="font-bold md:  mb-28">We’re Featured In</h2>
-            <div class="overflow-hidden w-full md:px-[8%]">
+            <div class="overflow-hidden w-full md:px-[8%] max-w-[1900px]">
                 <div class="swiper mySwiper3">
                     <div class="swiper-wrapper">
                         <div class="swiper-slide border-trans">
@@ -465,7 +466,7 @@
                 </div>
             </div>
         </section>
-        <section class="flex flex-col w-full md:px-[8%]">
+        <section class="flex flex-col w-full md:px-[8%] max-w-[1900px]">
             <h2 class="md:  font-bold mb-[100px]">Primary Services</h2>
             <div class="flex flex-wrap w-full">
                 <div
@@ -1226,13 +1227,13 @@
         </section>
 
         <section class="flex flex-col items-center w-full mt-[150px]">
-            <div class="flex flex-col md:px-[8%] w-full">
+            <div class="flex flex-col md:px-[8%] max-w-[1900px] w-full">
                 <h2 class="md:  font-bold">Our Clients</h2>
                 <p class="md:  my-5">We contribute to these partnership programs, supported by
                     global technology experts. Partnering with industry leaders, we offer quality technology solutions
                     that meet your business needs.</p>
             </div>
-            <div class="md:flex flex-wrap md:px-[8%] hidden">
+            <div class="md:flex flex-wrap md:px-[8%] max-w-[1900px] hidden">
                 <div class="flex justify-center items-center lg:w-1/6 md:w-1/4 md:w-1/3 w-full px-6 border-trans2">
                     <img src="../images/d-1.png" alt="logo">
                 </div>
@@ -1289,7 +1290,7 @@
                 </div>
             </div>
 
-            <div class="overflow-hidden flex md:hidden w-full md:px-[8%]">
+            <div class="overflow-hidden flex md:hidden w-full md:px-[8%] max-w-[1900px]">
                 <div class="swiper mySwiper4">
                     <div class="swiper-wrapper">
                         <div class="swiper-slide border-trans3">
@@ -1415,7 +1416,7 @@
                     Us</a>
             </div>
         </div>
-        <div class="flex w-full md:px-[8%] mt-28">
+        <div class="flex w-full md:px-[8%] max-w-[1900px] mt-28">
             <div class="flex flex-col">
                 <h4 class=" font-bold">Services</h4>
                 <div class="flex">
