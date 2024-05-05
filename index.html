@@ -14,16 +14,16 @@
 <body>
     <header class="flex flex-col justify-center items-center pb-3 mb-[100px]">
         <div
-            class="flex justify-between fixed bg-[white] w-full shadow top-0 md:px-[8%] max-w-[1900px] h-[81px] z-[100]">
+            class="flex justify-between fixed bg-[white] w-full shadow top-0 md:px-[8%] me-[5px] max-w-[1900px] h-[81px] z-[100]">
             <section class="flex items-center ps-4" id="logo">
-                <img src="images/d-1.png" class="w-[48px]" alt="">
+                <img src="/images/d-1.png" class="w-[48px]" alt="">
             </section>
             <section class="hidden lg:block">
                 <nav class="flex relative">
                     <ul class="flex head-ul">
-                        <a href=""
+                        <a href="/"
                             class="py-[30px] px-[18px] md:text-[11px] lg:text-[13px] font-[500] text-[#efcb19] relative">Home</a>
-                        <a href="services/"
+                        <a href="/services/"
                             class="py-[30px] px-[18px] md:text-[11px] lg:text-[13px] font-[500] transition-all duration-800 relative"
                             onmouseover="displayMenu(1)" onmouseout="hideMenu(1)">
                             Services</a>
@@ -45,12 +45,12 @@
                             class="py-[30px] px-[18px] md:text-[11px] lg:text-[13px] font-[500] transition-all duration-800 relative"
                             onmouseover="displayDropDown()" onmouseout="hideDropDown()">
                             Insights</a>
-                        <a href="contacts/"
+                        <a href="/contacts/"
                             class="flex  font-[600] justify-center items-center rounded-full px-5 py-0 h-[45px] text-white bg-[#efcb19] mt-[18px]">GET
                             A QUOTE</a>
                     </ul>
                     <section id="drop-D"
-                        class="flex flex-col absolute top-[64px] right-0 z-[102] bg-[white] shadow-md p-5 hidden"
+                        class="flex flex-col absolute top-[81px] right-0 z-[102] bg-[white] shadow-md p-5 hidden"
                         onmouseover="displayDropDown()" onmouseout="hideDropDown()">
                         <a href="" class="p-2 text-[13px]">About Almubdieuntech</a>
                         <a href="" class="p-2 text-[13px]">Life at Almubdieuntech</a>
@@ -97,7 +97,7 @@
             </div>
         </div>
         <div class="bg-[black] fixed top-0 right-0 bottom-0 left-0 opacity-70 z-[99] hidden" id="cover"></div>
-        <nav class="w-full fixed max-w-[300px] bg-[white] top-[64px] bottom-0 left-[300%] right-[0px] opacity-0 transition-all duration-500 z-[100]"
+        <nav class="w-full fixed max-w-[300px] bg-[white] top-[81px] bottom-0 left-[300%] right-[0px] opacity-0 transition-all duration-500 z-[100]"
             id="offCanvas">
             <div class="flex w-full p-8 pb-0">
                 <svg width="20" height="21" class="hover:first::fill-[#efcb19] first:fill-[#718389]" viewBox="0 0 20 21"
@@ -106,7 +106,7 @@
                         d="M16.6667 7.16643L11.6667 2.78309C11.2084 2.37313 10.615 2.14648 10.0001 2.14648C9.38513 2.14648 8.79176 2.37313 8.33341 2.78309L3.33341 7.16643C3.06872 7.40316 2.8575 7.69356 2.71381 8.0183C2.57012 8.34304 2.49726 8.69466 2.50008 9.04976V16.3331C2.50008 16.9961 2.76347 17.632 3.23231 18.1009C3.70115 18.5697 4.33704 18.8331 5.00008 18.8331H15.0001C15.6631 18.8331 16.299 18.5697 16.7678 18.1009C17.2367 17.632 17.5001 16.9961 17.5001 16.3331V9.04143C17.5017 8.68773 17.4283 8.33771 17.2846 8.0145C17.141 7.69128 16.9304 7.40222 16.6667 7.16643ZM11.6667 17.1664H8.33341V12.9998C8.33341 12.7787 8.42121 12.5668 8.57749 12.4105C8.73377 12.2542 8.94573 12.1664 9.16675 12.1664H10.8334C11.0544 12.1664 11.2664 12.2542 11.4227 12.4105C11.5789 12.5668 11.6667 12.7787 11.6667 12.9998V17.1664ZM15.8334 16.3331C15.8334 16.5541 15.7456 16.7661 15.5893 16.9223C15.4331 17.0786 15.2211 17.1664 15.0001 17.1664H13.3334V12.9998C13.3334 12.3367 13.07 11.7008 12.6012 11.232C12.1323 10.7632 11.4965 10.4998 10.8334 10.4998H9.16675C8.5037 10.4998 7.86782 10.7632 7.39898 11.232C6.93014 11.7008 6.66675 12.3367 6.66675 12.9998V17.1664H5.00008C4.77907 17.1664 4.5671 17.0786 4.41082 16.9223C4.25454 16.7661 4.16675 16.5541 4.16675 16.3331V9.04143C4.1669 8.92311 4.19224 8.80617 4.24109 8.69841C4.28995 8.59065 4.36119 8.49452 4.45008 8.41643L9.45008 4.04143C9.60215 3.90783 9.79766 3.83415 10.0001 3.83415C10.2025 3.83415 10.398 3.90783 10.5501 4.04143L15.5501 8.41643C15.639 8.49452 15.7102 8.59065 15.7591 8.69841C15.8079 8.80617 15.8333 8.92311 15.8334 9.04143V16.3331Z">
                     </path>
                 </svg>
-                <a href="" class="ms-4  -my-[2px]">Home</a>
+                <a href="/" class="ms-4  -my-[2px]">Home</a>
             </div>
             <div class="flex w-full p-8 pb-0">
                 <svg width="20" height="21" class="hover:first::fill-[#efcb19] first:fill-[#718389]" viewBox="0 0 20 21"
@@ -115,7 +115,7 @@
                         d="M8.33333 11.3333H3.33333C3.11232 11.3333 2.90036 11.4211 2.74408 11.5774C2.5878 11.7337 2.5 11.9457 2.5 12.1667V17.1667C2.5 17.3877 2.5878 17.5996 2.74408 17.7559C2.90036 17.9122 3.11232 18 3.33333 18H8.33333C8.55435 18 8.76631 17.9122 8.92259 17.7559C9.07887 17.5996 9.16667 17.3877 9.16667 17.1667V12.1667C9.16667 11.9457 9.07887 11.7337 8.92259 11.5774C8.76631 11.4211 8.55435 11.3333 8.33333 11.3333ZM7.5 16.3333H4.16667V13H7.5V16.3333ZM16.6667 3H11.6667C11.4457 3 11.2337 3.0878 11.0774 3.24408C10.9211 3.40036 10.8333 3.61232 10.8333 3.83333V8.83333C10.8333 9.05435 10.9211 9.26631 11.0774 9.42259C11.2337 9.57887 11.4457 9.66667 11.6667 9.66667H16.6667C16.8877 9.66667 17.0996 9.57887 17.2559 9.42259C17.4122 9.26631 17.5 9.05435 17.5 8.83333V3.83333C17.5 3.61232 17.4122 3.40036 17.2559 3.24408C17.0996 3.0878 16.8877 3 16.6667 3V3ZM15.8333 8H12.5V4.66667H15.8333V8ZM16.6667 13.8333H15V12.1667C15 11.9457 14.9122 11.7337 14.7559 11.5774C14.5996 11.4211 14.3877 11.3333 14.1667 11.3333C13.9457 11.3333 13.7337 11.4211 13.5774 11.5774C13.4211 11.7337 13.3333 11.9457 13.3333 12.1667V13.8333H11.6667C11.4457 13.8333 11.2337 13.9211 11.0774 14.0774C10.9211 14.2337 10.8333 14.4457 10.8333 14.6667C10.8333 14.8877 10.9211 15.0996 11.0774 15.2559C11.2337 15.4122 11.4457 15.5 11.6667 15.5H13.3333V17.1667C13.3333 17.3877 13.4211 17.5996 13.5774 17.7559C13.7337 17.9122 13.9457 18 14.1667 18C14.3877 18 14.5996 17.9122 14.7559 17.7559C14.9122 17.5996 15 17.3877 15 17.1667V15.5H16.6667C16.8877 15.5 17.0996 15.4122 17.2559 15.2559C17.4122 15.0996 17.5 14.8877 17.5 14.6667C17.5 14.4457 17.4122 14.2337 17.2559 14.0774C17.0996 13.9211 16.8877 13.8333 16.6667 13.8333ZM8.33333 3H3.33333C3.11232 3 2.90036 3.0878 2.74408 3.24408C2.5878 3.40036 2.5 3.61232 2.5 3.83333V8.83333C2.5 9.05435 2.5878 9.26631 2.74408 9.42259C2.90036 9.57887 3.11232 9.66667 3.33333 9.66667H8.33333C8.55435 9.66667 8.76631 9.57887 8.92259 9.42259C9.07887 9.26631 9.16667 9.05435 9.16667 8.83333V3.83333C9.16667 3.61232 9.07887 3.40036 8.92259 3.24408C8.76631 3.0878 8.55435 3 8.33333 3V3ZM7.5 8H4.16667V4.66667H7.5V8Z">
                     </path>
                 </svg>
-                <a href="services/index.html" class="ms-4  -my-[2px]">Services</a>
+                <a href="/services/index.html" class="ms-4  -my-[2px]">Services</a>
             </div>
             <div class="flex w-full p-8 pb-0">
                 <svg width="20" height="21" class="hover:first::fill-[#efcb19] first:fill-[#718389]" viewBox="0 0 20 21"
@@ -163,7 +163,7 @@
                 <a href="" class="ms-4  -my-[6px]">Get a Quote</a>
             </div>
         </nav>
-        <section id="megamenu1" class="w-full fixed z-[191] bg-[white] shadow top-[64px] flex flex-col hidden"
+        <section id="megamenu1" class="w-full fixed z-[191] bg-[white] shadow top-[81px] flex flex-col hidden"
             onmouseover="displayMenu(1)" onmouseout="hideMenu(1)">
             <div class="flex">
                 <div class="w-[25%] ps-[160px] flex flex-col">
@@ -174,33 +174,33 @@
                 </div>
                 <div class="w-[25%] flex flex-col border-s-[1px] ps-4 border-[#f1f1f1]">
                     <h4 class="pb-3 2xl:text-[25px] menu-h text-[black] font-[500]">Primary</h4>
-                    <p>Android App Development</p>
-                    <p>IPhone App Development</p>
-                    <p>Game Development</p>
-                    <p>Web Development</p>
-                    <p>Custom Software Development</p>
-                    <p>Futter App Development</p>
-                    <p>Mobile App Development Services</p>
+                    <a href="/android-app-development/">Android App Development</a>
+                    <a href="/">IPhone App Development</a>
+                    <a href="/">Game Development</a>
+                    <a href="/">Web Development</a>
+                    <a href="/">Custom Software Development</a>
+                    <a href="/">Futter App Development</a>
+                    <a href="/">Mobile App Development Services</a>
                 </div>
                 <div class="w-[25%] flex flex-col border-s-[1px] ps-4 border-[#f1f1f1]">
                     <h4 class="pb-3 2xl:text-[25px] menu-h text-[black] font-[500]">Consulting</h4>
-                    <p>Cloud Computing</p>
-                    <p>CTO Consultant</p>
-                    <p>Emerging Technology</p>
-                    <p>Digital Transformation</p>
-                    <p>Digital Marketplace</p>
-                    <p>Data Analytics</p>
-                    <p>Digital Strategy</p>
+                    <a href="/">Cloud Computing</a>
+                    <a href="/">CTO Consultant</a>
+                    <a href="/">Emerging Technology</a>
+                    <a href="/">Digital Transformation</a>
+                    <a href="/">Digital Marketplace</a>
+                    <a href="/">Data Analytics</a>
+                    <a href="/">Digital Strategy</a>
                 </div>
                 <div class="w-[25%] flex flex-col border-s-[1px] ps-4 border-[#f1f1f1]">
                     <h4 class="pb-3 2xl:text-[25px] menu-h text-[black] font-[500]">Trending</h4>
-                    <p>AI Development</p>
-                    <p>AR/VR Company</p>
-                    <p>Bluetooth App Development</p>
-                    <p>Automation Consultancy</p>
-                    <p>NFT Development</p>
-                    <p>Machine Learning</p>
-                    <p>React Native App Development</p>
+                    <a href="/">AI Development</a>
+                    <a href="/">AR/VR Company</a>
+                    <a href="/">Bluetooth App Development</a>
+                    <a href="/">Automation Consultancy</a>
+                    <a href="/">NFT Development</a>
+                    <a href="/">Machine Learning</a>
+                    <a href="/">React Native App Development</a>
                 </div>
             </div>
             <div class="flex items-center text-[white] w-full bg-[#314252] mt-[45px]">
@@ -248,7 +248,7 @@
                 </div>
             </div>
         </section>
-        <section id="megamenu2" class="w-full fixed z-[191] bg-[white] shadow top-[64px] flex flex-col hidden"
+        <section id="megamenu2" class="w-full fixed z-[191] bg-[white] shadow top-[81px] flex flex-col hidden"
             onmouseover="displayMenu(2)" onmouseout="hideMenu(2)">
             <div class="flex">
                 <div class="w-[25%] ps-[160px] flex flex-col">
@@ -326,7 +326,7 @@
                 </div>
             </div>
         </section>
-        <section id="megamenu3" class="w-full fixed z-[191] bg-[white] shadow top-[64px] flex flex-col hidden"
+        <section id="megamenu3" class="w-full fixed z-[191] bg-[white] shadow top-[81px] flex flex-col hidden"
             onmouseover="displayMenu(3)" onmouseout="hideMenu(3)">
             <div class="flex">
                 <div class="w-[25%] ps-[185px] flex flex-col">
@@ -398,12 +398,12 @@
     </header>
     <main class="flex flex-col items-center justify-center w-full">
         <section class="flex w-full max-w-[1900px]">
-            <div class="overflow-hidden md:w-3/4 md:px-[8%]">
+            <div class="overflow-hidden md:w-[85%] md:px-[8%]">
                 <div class="swiper mySwiper">
                     <div class="swiper-wrapper">
                         <div class="swiper-slide">
                             <h1 class="text-start AlBanner font-bold">
-                                <span class="text-[#efcb19]">Full-Fledged WebSite</span>
+                                <span class="text-[#efcb19]">Mobile App</span>
                                 Development Company
                             </h1>
                             <p class="text-start">We strive to offer cutting edge mobile development
@@ -416,7 +416,7 @@
                             <h1 class="text-start AlBanner font-bold">
                                 A Company with
                                 <span class="text-[#efcb19]">Global Presence</span>
-                                < <p class="text-start text-[22px]">We’re constantly evolving and creating digital
+                                <p class="text-start text-[22px]">We’re constantly evolving and creating digital
                                     solutions
                                     for
                                     businesses across the globe.
