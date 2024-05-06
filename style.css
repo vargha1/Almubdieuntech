@@ -15,7 +15,7 @@ h4 {
     font-weight: 700
 }
 
-h3:not(.box-item) {
+h3:not(.box-item):not(.insights) {
     font-size: 54px !important;
 }
 
@@ -37,6 +37,12 @@ h1 {
 }
 
 @media (min-width:0px) and (max-width:666px) {
+
+    .box-item {
+        font-size: 18px !important;
+        font-weight: normal;
+        margin-bottom: 14px;
+    }
 
     .nav-item {
         font-size: 18px;
@@ -117,6 +123,13 @@ h1 {
 }
 
 @media(min-width: 501px)and (max-width:767px) {
+
+    .box-item {
+        font-size: 16px !important;
+        font-weight: normal;
+        margin-bottom: 14px;
+    }
+
     .container {
         max-width: 700px
     }
@@ -200,6 +213,13 @@ h1 {
 }
 
 @media(min-width: 768px)and (max-width:991px) {
+
+    .box-item {
+        font-size: 18px !important;
+        font-weight: normal;
+        margin-bottom: 14px;
+    }
+
     .container {
         max-width: 860px
     }
@@ -283,6 +303,13 @@ h1 {
 }
 
 @media(min-width: 992px)and (max-width:1199px) {
+
+    .box-item {
+        font-size: 20px !important;
+        font-weight: normal;
+        margin-bottom: 14px;
+    }
+
     .container {
         max-width: 900px
     }
@@ -360,6 +387,13 @@ h1 {
 }
 
 @media(min-width: 1200px)and (max-width:1399px) {
+
+    .box-item {
+        font-size: 20px !important;
+        font-weight: normal;
+        margin-bottom: 14px;
+    }
+
     .container {
         max-width: 1130px
     }
@@ -431,6 +465,13 @@ h1 {
 }
 
 @media(min-width: 1400px)and (max-width:1599px) {
+
+    .box-item {
+        font-size: 20px !important;
+        font-weight: normal;
+        margin-bottom: 14px;
+    }
+
     .container {
         max-width: 1240px
     }
@@ -502,6 +543,13 @@ h1 {
 }
 
 @media(min-width: 1600px)and (max-width:1800px) {
+
+    .box-item {
+        font-size: 20px !important;
+        font-weight: normal;
+        margin-bottom: 14px;
+    }
+
     .container {
         max-width: 1340px
     }

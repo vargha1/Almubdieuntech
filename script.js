@@ -9,6 +9,21 @@ function displayMenu(num) {
         document.getElementById('megamenu3').classList.remove('hidden');
     }
 }
+
+if ((document.location.pathname == "/android-app-development") || (document.location.pathname == "/android-app-development/")) {
+    let header = document.querySelector("header div");
+    document.addEventListener('scroll', () => {
+        if (document.body.scrollTop > 81 || document.documentElement.scrollTop > 81) {
+            header.classList.add('bg-[white]');
+            header.classList.remove('bg-[#281d40]');
+        } else if (document.body.scrollTop < 81 || document.documentElement.scrollTop < 81) {
+            header.classList.add("bg-[#281d40]");
+            header.classList.remove("bg-[white]");
+        }
+    });
+}
+
+
 function hideMenu(num) {
     if (num == 1) {
         document.getElementById('megamenu1').classList.add('hidden');
@@ -130,11 +145,11 @@ if (window.innerWidth > 768) {
     changeList(2);
 }
 
-function changeList2(num){
+function changeList2(num) {
     let wrapper11 = document.getElementById('wrapper11');
 
     for (let index = 2; index < wrapper11.children.length; index++) {
-        wrapper11.children.item(index).classList.add('hidden');       
+        wrapper11.children.item(index).classList.add('hidden');
     }
 
     for (let index = 0; index < wrapper11.children.item(1).children.length; index++) {
@@ -142,27 +157,27 @@ function changeList2(num){
         wrapper11.children.item(1).children.item(0).classList.remove('text-[#efcb19]');
     }
 
-    if(num == 1){
+    if (num == 1) {
         wrapper11.children.item(2).classList.remove('hidden');
         wrapper11.children.item(1).children.item(0).classList.add('border-[#efcb19]');
         wrapper11.children.item(1).children.item(0).classList.add('text-[#efcb19]');
     }
-    if(num == 2){
+    if (num == 2) {
         wrapper11.children.item(3).classList.remove('hidden');
         wrapper11.children.item(1).children.item(1).classList.add('border-[#efcb19]');
         wrapper11.children.item(1).children.item(1).classList.add('text-[#efcb19]');
     }
-    if(num == 3){
+    if (num == 3) {
         wrapper11.children.item(4).classList.remove('hidden');
         wrapper11.children.item(1).children.item(2).classList.add('border-[#efcb19]');
         wrapper11.children.item(1).children.item(2).classList.add('text-[#efcb19]');
     }
-    if(num == 4){
+    if (num == 4) {
         wrapper11.children.item(5).classList.remove('hidden');
         wrapper11.children.item(1).children.item(3).classList.add('border-[#efcb19]');
         wrapper11.children.item(1).children.item(3).classList.add('text-[#efcb19]');
     }
-    if(num == 5){
+    if (num == 5) {
         wrapper11.children.item(6).classList.remove('hidden');
         wrapper11.children.item(1).children.item(4).classList.add('border-[#efcb19]');
         wrapper11.children.item(1).children.item(4).classList.add('text-[#efcb19]');
