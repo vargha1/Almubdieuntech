@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Android App Development</title>
     <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="/style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
     <link href="https://fonts.googleapis.com/css?family=Poppins:400,500,600,700,800&amp;display=swap" rel="stylesheet">
 </head>
@@ -14,7 +14,7 @@
 <body>
     <header class="flex flex-col justify-center items-center pb-3">
         <div
-            class="flex justify-between fixed bg-[white] w-full shadow top-0 md:px-[8%] me-[5px] max-w-[1900px] h-[81px] z-[100]">
+            class="flex justify-between fixed bg-[white] w-full shadow top-0 md:px-[8%] me-[5px] max-w-[1900px] before:fixed before:bg-inherit before:left-0 before:right-0 before:top-0 before:bottom-0 before:max-h-[81px] before:-z-[1] h-[81px] z-[100]">
             <section class="flex items-center ps-4" id="logo">
                 <img src="/images/d-1.png" class="w-[48px]" alt="">
             </section>
@@ -397,10 +397,10 @@
         </section>
     </header>
     <main class="flex flex-col justify-center items-center w-full">
-        <section class="flex flex-col justify-center items-center w-full bg-[#281d40] mb-8">
-            <section class="flex w-full md:px-[8%] text-white">
+        <section class="flex flex-col justify-center items-center w-full bg-[#281d40] mb-8 pt-[120px]">
+            <section class="flex w-full md:px-[8%] max-w-[1900px] text-white">
                 <div class="flex flex-col w-1/2">
-                    <h1 class="md:  font-bold text-[#efcb19] mb-9">Android App <span class="text-white">Development
+                    <h1 class=" font-bold text-[#efcb19] mb-9">Android App <span class="text-white">Development
                             Company</span>
                     </h1>
                     <p class=" mb-16">Dominate the global market by digitizing your business with our robust
@@ -409,7 +409,7 @@
                         innovation to supercharge your business, streamline operational processes, and achieve a 2X
                         progressive ROI growth to
                         succeed in a competitive market.</p>
-                    <a href="" class="flex justify-center items-center bg-[#efcb19] w-3/5 rounded-full h-[40px]">Let's
+                    <a href="" class="flex justify-center items-center bg-[#efcb19] w-[45%] rounded-full h-[40px]">Let's
                         Build
                         Your Android App</a>
                 </div>
@@ -418,9 +418,9 @@
                 </div>
             </section>
         </section>
-        <section class="flex flex-col w-full md:px-[8%]">
+        <section class="flex flex-col w-full md:px-[8%] max-w-[1900px]">
             <div class="flex w-full mb-10">
-                <h2 class="w-1/2 md:  font-bold">Partner Up With The Right Android App Development Agency</h2>
+                <h2 class="w-1/2  font-bold">Partner Up With The Right Android App Development Agency</h2>
                 <p class="w-1/2  ps-24">Working with an Android application development company like TekRevol
                     means
                     you
@@ -430,24 +430,21 @@
                     development:</p>
             </div>
             <div class="flex justify-center mb-20">
-                <div class="flex flex-col text-[50px] md:text-[70px] lg:90px font-bold">
-                    4.8
-                    <p class=" font-normal">Average Review Rating on Clutch</p>
+                <div class="flex flex-col font-bold numlg">4.8
+                    <p class="font-normal">Average Review Rating on Clutch</p>
                 </div>
-                <div class="flex flex-col text-[50px] md:text-[65px] lg:90px font-bold px-28">
-                    5.0
-                    <p class=" font-normal">Average Review Rating on GoodFirms</p>
+                <div class="flex flex-col font-bold numlg px-28">5.0
+                    <p class="font-normal">Average Review Rating on GoodFirms</p>
                 </div>
-                <div class="flex flex-col text-[50px] md:text-[65px] lg:90px font-bold">
-                    4.8
-                    <p class=" font-normal">Average Review Rating on RightFirms</p>
+                <div class="flex flex-col font-bold numlg">4.8
+                    <p class="font-normal">Average Review Rating on RightFirms</p>
                 </div>
             </div>
         </section>
         <section class="flex flex-col justify-center items-center w-full bg-[#efcb19]">
             <section class="flex w-full md:px-[8%] text-[white] pt-12">
                 <div class="flex flex-col w-1/2 px-20">
-                    <h2 class="md:  font-bold">When To Consider Our Android App Development Services</h2>
+                    <h2 class=" font-bold">When To Consider Our Android App Development Services</h2>
                     <p class=" my-6">We offer comprehensive Android app solutions tailored to the unique
                         needs of
                         businesses including startups to
@@ -481,10 +478,10 @@
                 </div>
             </section>
         </section>
-        <section class="flex flex-col w-full px-[8%] s3:flex-row" id="wrapper11">
+        <section class="flex flex-col w-full px-[8%] py-11" id="wrapper11">
             <div class="flex w-full px-4 py-14">
-                <h3 class="md: w-1/2  font-bold">Technologies We Use</h3>
-                <p class="md: w-1/2 ">Our Android app developers utilize the latest technologies to create your business
+                <h3 class="w-1/2  font-bold">Technologies We Use</h3>
+                <p class="w-1/2 ">Our Android app developers utilize the latest technologies to create your business
                     applications.</p>
             </div>
             <div class="flex w-full border-b-2 border-[#d3d3d3] mb-7">
@@ -536,7 +533,33 @@
                 <li class="mx-9 ">Google Cloud</li>
                 <li class="mx-9 ">Google Analytics</li>
             </ul>
-
+        </section>
+        <section class="flex flex-col w-full justify-center items-center  text-white">
+            <div class="flex justify-between w-full px-[120px] bg-[#6fbcdf]">
+                <div class="flex flex-col pt-[140px]">
+                    <img src="/images/case-logo-1.webp" class="w-[193px]" alt="">
+                    <h5 class="font-[600] my-5">Real-Time Social Networking App</h5>
+                </div>
+                <div class="flex justify-center w-1/2">
+                    <img src="/images/case-study-1.webp" alt="">
+                </div>
+            </div>
+            <div class="flex w-full">
+                <div class="flex w-1/2 bg-black pe-8 ps-28">
+                    <div class="flex flex-col">
+                        <img src="/images/PurePlank.png" class="mt-[60px] mb-[40px] w-fit" alt="pure-plank">
+                        <h3 class="title font-[600]">Empowering Your Wellness Journey</h3>
+                    </div>
+                    <img src="/images/case-study-2.webp" class="mt-[60px] h-[450px]" alt="">
+                </div>
+                <div class="flex w-1/2 bg-[#4145a9] pe-8 ps-28">
+                    <div class="flex flex-col">
+                        <img src="/images/case-logo-3.webp" class="mt-[60px] mb-[40px] w-fit" alt="">
+                        <h3 class="title font-[600]">A Restaurant Booking and Socializing App</h3>
+                    </div>
+                    <img src="/images/case-study-3.webp" class="mt-[60px] h-[450px]" alt="">
+                </div>
+            </div>
         </section>
     </main>
     <script src="../script.js"></script>

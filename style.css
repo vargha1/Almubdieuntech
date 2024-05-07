@@ -2,11 +2,20 @@
 @tailwind components;
 @tailwind utilities;
 
+p,
+ul li {
+    font-size: 18px;
+}
+
 .h6,
 h6 {
     font-size: 24px !important;
     font-weight: 500;
     margin-bottom: 50px
+}
+
+h5 {
+    font-size: 32px !important;
 }
 
 .h4,
@@ -15,7 +24,7 @@ h4 {
     font-weight: 700
 }
 
-h3:not(.box-item):not(.insights) {
+h3:not(.box-item):not(.insights):not(.title) {
     font-size: 54px !important;
 }
 
@@ -34,6 +43,14 @@ h1 {
 
 .AlBanner+p {
     font-size: 45px !important;
+}
+
+.numlg {
+    font-size: 150px;
+}
+
+.numlg p {
+    font-size: 18px;
 }
 
 @media (min-width:0px) and (max-width:666px) {
@@ -119,6 +136,14 @@ h1 {
 
     .AlBanner+p {
         font-size: 15px !important;
+    }
+
+    .numlg {
+        font-size: 50px;
+    }
+
+    .numlg p {
+        font-size: 13px !important;
     }
 }
 
@@ -210,6 +235,14 @@ h1 {
     .AlBanner+p {
         font-size: 16px !important;
     }
+
+    .numlg {
+        font-size: 50px;
+    }
+
+    .numlg p {
+        font-size: 12px !important;
+    }
 }
 
 @media(min-width: 768px)and (max-width:991px) {
@@ -300,6 +333,14 @@ h1 {
     .AlBanner+p {
         font-size: 18px !important;
     }
+
+    .numlg {
+        font-size: 60px;
+    }
+
+    .numlg p {
+        font-size: 12px !important;
+    }
 }
 
 @media(min-width: 992px)and (max-width:1199px) {
@@ -384,6 +425,14 @@ h1 {
     .AlBanner+p {
         font-size: 22px !important;
     }
+
+    .numlg {
+        font-size: 60px;
+    }
+
+    .numlg p {
+        font-size: 13px !important;
+    }
 }
 
 @media(min-width: 1200px)and (max-width:1399px) {
@@ -462,6 +511,14 @@ h1 {
     .AlBanner+p {
         font-size: 22px !important;
     }
+
+    .numlg {
+        font-size: 90px;
+    }
+
+    .numlg p {
+        font-size: 14px !important;
+    }
 }
 
 @media(min-width: 1400px)and (max-width:1599px) {
@@ -539,6 +596,14 @@ h1 {
 
     .AlBanner+p {
         font-size: 25px !important;
+    }
+
+    .numlg {
+        font-size: 110px;
+    }
+
+    .numlg p {
+        font-size: 15px !important;
     }
 }
 
@@ -622,6 +687,14 @@ h1 {
 
     .AlBanner+p {
         font-size: 28px !important;
+    }
+
+    .numlg {
+        font-size: 130px;
+    }
+
+    .numlg p {
+        font-size: 16px !important;
     }
 }
 
