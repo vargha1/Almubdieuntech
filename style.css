@@ -49,6 +49,10 @@ h1 {
     font-size: 150px;
 }
 
+.nummd {
+    font-size: 102px;
+}
+
 .numlg p {
     font-size: 18px;
 }
@@ -140,6 +144,10 @@ h1 {
 
     .numlg {
         font-size: 50px;
+    }
+
+    .nummd {
+        font-size: 35px;
     }
 
     .numlg p {
@@ -240,6 +248,10 @@ h1 {
         font-size: 50px;
     }
 
+    .nummd {
+        font-size: 35px;
+    }
+
     .numlg p {
         font-size: 12px !important;
     }
@@ -338,6 +350,10 @@ h1 {
         font-size: 60px;
     }
 
+    .nummd {
+        font-size: 35px;
+    }
+
     .numlg p {
         font-size: 12px !important;
     }
@@ -430,6 +446,10 @@ h1 {
         font-size: 60px;
     }
 
+    .nummd {
+        font-size: 40px;
+    }
+
     .numlg p {
         font-size: 13px !important;
     }
@@ -516,6 +536,10 @@ h1 {
         font-size: 90px;
     }
 
+    .nummd {
+        font-size: 60px;
+    }
+
     .numlg p {
         font-size: 14px !important;
     }
@@ -600,6 +624,10 @@ h1 {
 
     .numlg {
         font-size: 110px;
+    }
+
+    .nummd {
+        font-size: 70px;
     }
 
     .numlg p {
@@ -691,6 +719,10 @@ h1 {
 
     .numlg {
         font-size: 130px;
+    }
+
+    .nummd {
+        font-size: 80px;
     }
 
     .numlg p {
