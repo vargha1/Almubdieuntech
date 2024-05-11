@@ -2,6 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
+h6 span {
+    font-size: initial;
+    width: 100%;
+}
+
 p,
 ul li {
     font-size: 18px;
@@ -55,6 +60,35 @@ h1 {
 
 .numlg p {
     font-size: 18px;
+}
+
+.menu-item {
+    font-size: 16px !important;
+}
+
+.numsm {
+    font-size: 40px !important;
+    font-weight: 500;
+}
+
+@media (min-width:900px) {
+    .img-wrapper2 {
+        width: fit-content;
+    }
+
+    .img-wrapper1 {
+        flex-wrap: nowrap;
+    }
+}
+
+@media (min-width:0px) and (max-width:900px) {
+    .img-wrapper2 {
+        width: 65%;
+    }
+
+    .img-wrapper1 {
+        flex-wrap: wrap;
+    }
 }
 
 @media (min-width:0px) and (max-width:666px) {
@@ -357,6 +391,10 @@ h1 {
     .numlg p {
         font-size: 12px !important;
     }
+
+    .menu-item {
+        font-size: 11px !important;
+    }
 }
 
 @media(min-width: 992px)and (max-width:1199px) {
@@ -453,6 +491,10 @@ h1 {
     .numlg p {
         font-size: 13px !important;
     }
+
+    .menu-item {
+        font-size: 11px !important;
+    }
 }
 
 @media(min-width: 1200px)and (max-width:1399px) {
@@ -543,6 +585,10 @@ h1 {
     .numlg p {
         font-size: 14px !important;
     }
+
+    .menu-item {
+        font-size: 13px !important;
+    }
 }
 
 @media(min-width: 1400px)and (max-width:1599px) {
@@ -632,6 +678,10 @@ h1 {
 
     .numlg p {
         font-size: 15px !important;
+    }
+
+    .menu-item {
+        font-size: 14px !important;
     }
 }
 
@@ -727,6 +777,10 @@ h1 {
 
     .numlg p {
         font-size: 16px !important;
+    }
+
+    .menu-item {
+        font-size: 14px !important;
     }
 }
 
