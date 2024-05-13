@@ -25,7 +25,7 @@ h4 {
     font-weight: 700
 }
 
-h3:not(.box-item):not(.insights):not(.title) {
+h3:not(.box-item):not(.insights):not(.title):not(.wrapper13 h3) {
     font-size: 54px !important;
 }
 
@@ -69,6 +69,10 @@ h1 {
 
 .numsm+ul+p {
     font-size: 10px !important;
+}
+
+.wrapper13 h3 {
+    font-size: 20px !important;
 }
 
 @media (min-width:900px) {
